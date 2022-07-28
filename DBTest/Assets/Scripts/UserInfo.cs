@@ -5,10 +5,10 @@ using UnityEngine;
 public class UserInfo : MonoBehaviour
 {
     public string UserID { get; private set; }
-    string UserName;
-    string UserPassword;
-    string Level;
-    string Coins;
+    public string UserName;
+    public string UserPassword;
+    public string Level;
+    public string Coins;
 
     public void SetCrendentials(string username, string password)
     {
