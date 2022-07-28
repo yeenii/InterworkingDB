@@ -22,6 +22,7 @@ public class Items : MonoBehaviour
 
     public void CreateItems()
     {   
+            //userID 받아오는 함수 
             string userId = Main.Instance.UserInfo.UserID;
             StartCoroutine(Main.Instance.Web.GetItemsIDs(userId, _createItemsCallback));
        
